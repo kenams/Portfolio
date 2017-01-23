@@ -1,0 +1,111 @@
+/*
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+$white: #FFFFFF;
+*/
+
+#posts_wrapper{
+	padding: 3em 0;
+}
+.post h2{
+	margin: 0;
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.date{
+	font-size: .9em;
+	text-align: center;
+}
+
+hr{
+	margin: 3em auto;
+}
+
+/************************POSTS SHOW**************/
+
+#post_show_content > header{
+	text-align: center;
+}
+
+#share_box{
+	text-align: center;
+}
+
+#share_box p{
+	padding: 0 0 1em 0;
+	margin: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #424652;
+	font-size: .8em;
+}
+
+
+
+/************************PAGINATION**************/
+
+.pagination:before,
+.pagination:after{
+	content: " ";
+	display: table;
+}
+
+.pagination:after{
+	clear:box;
+}
+
+.pagination{
+	text-align: center;
+	margin: 0 0 3em 0;
+}
+
+a, .previous_page, .current, .next_page{
+	padding: .75em 1em;
+	margin: 0 .5;
+	border-radius: .15em;
+	line-height: 20px;
+	text-decoration: none;
+	background: #FFFFFF;
+	font-weight: 700;
+	font-size: .7em;
+	font-style: normal;
+	color: #424652;
+}
+
+
+
+.current{
+	background:#8bc6db;
+	color: #FFFFFF;
+}
+
+.disabled{
+	color: #C0C0C0;
+}
+
+.disabled:hover{
+	color: #424652;
+	background: #FFFFFF;
+}
+
+&:hover{
+	color: #C0C0C0;
+	background: #FFFFFF; 
+}
+
+&:hover{
+	background: #8bc6db;
+	color: #C0C0C0; 
+}
+
+/*
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+$white: #FFFFFF;
+*/

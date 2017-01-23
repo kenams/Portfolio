@@ -1,0 +1,359 @@
+
+/******************************PAGE ET HEADER*****************************/
+
+
+.page
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+header h1
+{
+	background-color: #BF3A17;
+	background-repeat:no-repeat;
+	font-family: sans-serif;
+	font-weight: lighter;
+	width: 20%;
+	color: white;
+	float: left;
+	margin: 0;
+	line-height: 50px;
+}
+
+
+
+header h2 /*discover the business secrets for your success*/
+{
+	padding: 30px;
+}
+
+.p1
+{
+	color:#D3C69C;
+	font-weight: lighter;
+	font-size: 20px;
+	display: block;
+}
+.p2
+{	font-weight: lighter;
+	font-size: 50px;
+	display: block;
+}
+.p3
+{
+	color: #BF3A17;
+	font-weight: lighter;
+	font-size: 50px;
+	margin-left: 50px;
+	display: block;
+}
+.p4
+{
+	font-weight: lighter;
+	font-size: 20px;
+	margin-left: 50px;
+	display: block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header h6
+{
+	text-align: right;
+	margin-right: 100px;
+	font-family: sans-serif;
+	margin: 0;
+	line-height: 50px;
+
+}
+
+header
+{
+	background-image:url("people.jpg");
+	background-repeat: no-repeat;
+	background-position: 400px 100px;
+	padding-bottom: 40px;
+}
+
+.red
+{
+	color:#9F6857;/*couleur: we know the secrets of succes*/
+}
+
+header>nav
+{
+	background-color: #EBEAD8; 
+}
+
+header>nav>ul>li
+{
+	/*margin-right: 2px;*/
+	background-color: #EBEAD8; 
+	font-size: 14px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	box-sizing:border-box;
+	list-style-type: none
+}
+
+.brown
+{
+	background-color:#D3C69C;
+}
+
+
+header>nav>ul>li>a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/******************************CONTENT 1 *************************************/
+
+.colorground
+{
+	background-color: #EBEAD8;
+}
+
+
+.customers
+{
+	float: left;
+	width: 33%;
+}
+
+.customers p
+{
+	font-size: 10px;
+
+}
+
+.customers h1
+{
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.customers h2
+{
+ 	color:#792813;
+ 	font-size: 18px;
+ 	font-weight: lighter;
+}
+
+.customers a
+{
+	color:#D2876C;
+}
+
+.customers figure
+{
+	margin: 0;
+}
+
+.customers img
+{
+	float: left;
+	margin-right: 10px;
+}
+/****************************************************************************/ 
+.why
+{
+	float: left;
+	width: 33%;
+}
+
+.why p
+{
+	font-size: 10px;
+}
+
+.why h1
+{
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.why h2
+{
+	color: #792813;
+	font-size: 18px;
+ 	font-weight: lighter;
+}
+
+.why li a
+{
+	color:#D2876C;
+}
+
+.why li
+{
+	list-style-type: none;
+	background-image: url(puce.png);
+	background-repeat: no-repeat;
+	background-repeat: left center;
+	padding-left: 20px;
+}
+
+/*****************************************************************************/
+
+.news
+{
+	float: left;
+	width: 33%;
+}
+
+.news li
+{
+	font-size: 10px;
+	padding: 5px;
+}
+
+.news h1
+{
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.news h2
+{
+	color:#792813;
+	font-size: 18px;
+ 	font-weight: lighter;
+}
+
+.news li a
+{
+	color:#D2876C;
+	
+}
+
+.newsletter
+{
+	background: #BF3A17;
+	margin-top: 20px;
+	padding: 5px;
+	font-weight: lighter;
+	color: white;
+}
+
+.news ul li
+{
+	list-style-type: none;
+	background-image: url(puce.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+
+/*****************************************************************************/
+
+
+
+
+/********************************CONTENT 2 ***********************************/
+.colorback
+{
+	background-color: #DBD5BB;
+}
+
+
+.newsolutions
+{
+	float: left;
+	width: 33%;
+}
+
+.newsolutions li
+{
+	font-size: 10px;
+	padding: 5px;
+}
+
+.newsolutions li a
+{
+	color:#D2876C;
+}
+
+.newsolutions li
+{
+	list-style-type: none;
+	background-image: url(puce.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+/*****************************************************************************/
+.popular
+{
+	float: left;
+	width: 33%;
+}
+
+.popular li
+{
+	font-size: 10px;
+	padding: 5px;
+}
+
+.popular li a
+{
+	color:#D2876C;
+}
+
+.popular li
+{
+	list-style-type: none;
+	background-image: url(puce.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+/****************************************************************************/
+.press
+{
+	float: left;
+	width: 33%;
+}
+
+.press li
+{
+	font-size: 10px;
+	padding: 5px;
+}
+
+.press li a
+{
+	color:#D2876C;
+}
+
+.press li
+{
+	list-style-type: none;
+	background-image: url(puce.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+/****************************************************************************/
+
+/*******************************  FOOTER  ***********************************/
+footer p
+{
+	padding-top: 10px;
+}
+
+footer a
+{
+	color: #BF3A17;
+}
